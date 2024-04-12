@@ -1,4 +1,51 @@
-<h1>个人简历</h1>
-<div>
-  <div>很高兴向你介绍我自己！</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="向成渝">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+  <section class="flex">
+    <aside class="w-[300px]">
+      <div class="font-bold">
+        <span>姓名</span>
+        <span>向成渝</span>
+      </div>
+      <div class="font-bold">
+        <span>年龄</span>
+        <span>
+          <script>
+            const birthday = new Date("1997-10-01");
+            const year = birthday.getFullYear();
+            const month = birthday.getMonth();
+            const age = birthday.getMonth() >= new Date().getMonth() ? new Date().getFullYear() - year - 1 : new Date().getFullYear() - year;
+            document.write(`${age}`);
+          </script>
+        </span>
+      </div>
+      <div class="font-bold">
+        <span>学历</span>
+        <span>本科</span>
+      </div>
+      <div class="font-bold">
+        <span>专业</span>
+        <span>计算机科学与技术</span>
+      </div>
+    </aside>
+    <main class="flex-grow">
+      <h2>专项技能</h2>
+      <div>
+        <div>
+          <
+        </div>
+      </div>
+      <h2>项目介绍</h2>
+      <p>什么都会</p>
+    </main>
+  </section>
+  <!-- <script type="module" src="./index.js"></script> -->
+</body>
+</html>

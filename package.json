@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "author": {
+    "name": "向成渝",
+    "email": "x555666777@qq.com"
+  },
+  "scripts": {
+    "tailwindcss": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
