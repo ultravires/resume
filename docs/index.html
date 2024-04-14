@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="向成渝">
@@ -7,16 +7,16 @@
   <title>Resume</title>
   <link rel="stylesheet" href="./output.css">
 </head>
-<body>
-  <section class="flex">
-    <aside class="w-[300px]">
-      <div class="font-bold">
-        <span>姓名</span>
-        <span>向成渝</span>
+<body class="py-8 bg-gray-400">
+  <section class="w-[800px] flex mx-auto bg-white">
+    <aside class="p-4 w-[300px] bg-[#345da7] text-white">
+      <div class="py-2">
+        <span class="inline-block w-16 font-bold" style="text-align-last: justify;">姓名</span>
+        <span class="text-center underline underline-offset-8">向成渝</span>
       </div>
-      <div class="font-bold">
-        <span>年龄</span>
-        <span>
+      <div class="py-2">
+        <span class="inline-block w-16 font-bold" style="text-align-last: justify;">年龄</span>
+        <span class="text-center underline underline-offset-8">
           <script>
             const birthday = new Date("1997-10-01");
             const year = birthday.getFullYear();
@@ -26,24 +26,67 @@
           </script>
         </span>
       </div>
-      <div class="font-bold">
-        <span>学历</span>
-        <span>本科</span>
+      <div class="py-2">
+        <span class="inline-block w-16 font-bold" style="text-align-last: justify;">学历</span>
+        <span class="text-center underline underline-offset-8">本科</span>
       </div>
-      <div class="font-bold">
-        <span>专业</span>
-        <span>计算机科学与技术</span>
+      <div class="py-2">
+        <span class="inline-block w-16 font-bold" style="text-align-last: justify;">专业</span>
+        <span class="text-center underline underline-offset-8">计算机科学与技术</span>
+      </div>
+      <hr class="my-2 border-gray-400" />
+      <div class="py-2 font-bold">
+        <div>技能掌握</div>
+        <ul>
+          <li class="flex items-center gap-1 py-2" title="HTML">
+            <div class="flex-shrink-0 w-16 text-slate-200 text-sm whitespace-nowrap overflow-hidden text-ellipsis">HTML</div>
+            <div class="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div class="w-[90%] h-full bg-white rounded-full"></div>
+            </div>
+            <div class="text-slate-200">90%</div>
+          </li>
+          <li class="flex items-center gap-1 py-2" title="CSS">
+            <div class="flex-shrink-0 w-16 text-slate-200 text-sm whitespace-nowrap overflow-hidden text-ellipsis uppercase">CSS</div>
+            <div class="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div class="w-[85%] h-full bg-white rounded-full"></div>
+            </div>
+            <div class="text-slate-200">85%</div>
+          </li>
+          <li class="flex items-center gap-1 py-2" title="JavaScript">
+            <div class="flex-shrink-0 w-16 text-slate-200 text-sm whitespace-nowrap overflow-hidden text-ellipsis uppercase">JS</div>
+            <div class="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div class="w-[80%] h-full bg-white rounded-full"></div>
+            </div>
+            <div class="text-slate-200">80%</div>
+          </li>
+          <li class="flex items-center gap-1 py-2" title="Node">
+            <div class="flex-shrink-0 w-16 text-slate-200 text-sm whitespace-nowrap overflow-hidden text-ellipsis uppercase">Node</div>
+            <div class="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div class="w-[80%] h-full bg-white rounded-full"></div>
+            </div>
+            <div class="text-slate-200">80%</div>
+          </li>
+        </ul>
+      </div>
+      <hr class="my-2 border-gray-400" />
+      <div>
+        <div class="py-2">社交账号</div>
+        <div class="py-2">微信</div>
       </div>
     </aside>
-    <main class="flex-grow">
-      <h2>专项技能</h2>
+    <main class="flex-grow p-4">
+      <h2 class="font-bold">工作经历</h2>
       <div>
-        <div>
-          <
+        <div class="pl-2 border-l-2 border-solid border-blue-500">
+          <div class="relative flex items-center font-bold before:absolute before:w-2 before:h-2 before:bg-blue-500 before:rounded-full before:-left-3">
+            2018-09 至今
+          </div>
+          <div>
+            <h3 class="font-bold">北京中宏立达科技有限公司湖北分公司</h3>
+            <div>凭聚而立    兼通则达</div>
+          </div>
         </div>
       </div>
-      <h2>项目介绍</h2>
-      <p>什么都会</p>
     </main>
   </section>
   <!-- <script type="module" src="./index.js"></script> -->

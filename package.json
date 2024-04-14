@@ -5,7 +5,7 @@
     "email": "x555666777@qq.com"
   },
   "scripts": {
-    "tailwindcss": "tailwindcss -i ./input.css -o ./output.css --watch"
+    "tailwindcss": "tailwindcss -i ./docs/input.css -o ./docs/output.css --watch"
   },
   "dependencies": {
     "tailwindcss": "^3.4.3"
