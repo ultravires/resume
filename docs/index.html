@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="./output.css">
 </head>
 <body class="py-8 bg-gray-400">
-  <section class="w-[800px] flex mx-auto bg-white">
-    <aside class="p-4 w-[300px] bg-[#345da7] text-white">
+  <section class="w-[800px] flex mx-auto bg-white shadow-2xl">
+    <aside class="flex-shrink-0 p-4 w-[300px] bg-[#345da7] text-white">
       <div class="py-2">
         <span class="inline-block w-16 font-bold" style="text-align-last: justify;">姓名</span>
         <span class="text-center underline underline-offset-8">向成渝</span>
@@ -34,6 +34,10 @@
       <div class="py-2">
         <span class="inline-block w-16 font-bold" style="text-align-last: justify;">专业</span>
         <span class="text-center underline underline-offset-8">计算机科学与技术</span>
+      </div>
+      <div class="py-2">
+        <span class="inline-block w-16 font-bold" style="text-align-last: justify;">职业</span>
+        <span class="text-center underline underline-offset-8">WEB 前端</span>
       </div>
       <hr class="my-2 border-gray-400" />
       <div class="py-2 font-bold">
@@ -68,6 +72,7 @@
             <div class="text-slate-200">80%</div>
           </li>
         </ul>
+        <div>我所知道的，远不如此！</div>
       </div>
       <hr class="my-2 border-gray-400" />
       <div>
@@ -79,15 +84,63 @@
           <a class="hover:drop-shadow-lg" href="https://juejin.cn/user/3210229683858734/" title="稀土掘金"><img src="./icons/juejin.svg" alt="稀土掘金" /></a>
         </div>
       </div>
-    </aside>
-    <main class="flex-grow p-4">
-      <h2 class="py-2 font-bold text-lg">工作经历</h2>
+      <hr class="my-2 border-gray-400" />
       <div>
-        <div class="pl-2 border-l-2 border-solid border-blue-500">
+        <div class="py-2 font-bold">个人简介</div>
+        <p class="text-sm indent-8">长得十分帅气的小伙子，啥都略知一二，人送外号“前端天花板”。狂热 FPS 游戏爱好者。</p>
+      </div>
+    </aside>
+    <main class="flex-grow px-8 py-4">
+      <!-- 工作经历 -->
+      <h2 class="py-2 font-bold text-lg">工作经历</h2>
+      <div class="border-l-2 border-solid">
+        <div class="peer peer-[]:mt-6 pl-2">
           <div class="relative flex items-center mb-2 font-bold before:absolute before:w-2 before:h-2 before:bg-blue-500 before:rounded-full before:-left-3">2018-09 至今</div>
           <div>
             <h3 class="font-bold">北京中宏立达科技有限公司湖北分公司</h3>
             <div class="text-slate-600 text-sm">凭聚而立，兼通则达</div>
+          </div>
+        </div>
+        <div class="peer peer-[]:mt-6 pl-2">
+          <div class="relative flex items-center mb-2 font-bold before:absolute before:w-2 before:h-2 before:bg-blue-500 before:rounded-full before:-left-3">2018-09 至今</div>
+          <div>
+            <h3 class="font-bold">湖北海创知芸科技有限公司</h3>
+            <div class="text-slate-600 text-sm">知行合一，海纳百川</div>
+          </div>
+        </div>
+      </div>
+      <!-- 项目经历 -->
+      <h2 class="mt-4 py-2 font-bold text-lg">项目经历</h2>
+      <div class="border-l-2 border-solid">
+        <div class="peer peer-[]:mt-6 pl-2">
+          <div class="relative flex items-center mb-2 font-bold before:absolute before:w-2 before:h-2 before:bg-blue-500 before:rounded-full before:-left-3">项目主要负责人</div>
+          <div>
+            <h3 class="font-bold">即时通讯</h3>
+            <div class="text-slate-600 text-sm">
+              即时通讯客户端基于 Qt 实现，使用 QWebEngine 进行页面渲染，国产化全平台兼容。即时通讯系统实现了 SDK 集成。主要功能包括：统一认证、文本消息、图片消息、文件消息、表情消息、链接消息以及自定义消息等。即时通讯客户端支持主题切换和暗黑主题与系统跟随。即时通讯客户端支持文件夹的打包上传，文件的拖拽以及复制粘贴上传。支持多窗口通信。
+            </div>
+            <div class="mt-1 text-slate-600 text-sm">
+              技术栈：Qt、C/C++、Vue、VueRouter、Pinia、ElementPlus、WebSocket、WebWorker、TailwindCSS、HTML、JavaScript、CSS
+            </div>
+            <div class="mt-1 text-slate-600 text-sm">
+              开源贡献：
+              <a href="https://github.com/hotoo/pinyin/">pinyin</a>、
+              <a href="https://github.com/alex-spataru/QSimpleUpdater/">QSimpleUpdater</a>
+              </div>
+            </div>
+          </div>
+          <div class="peer peer-[]:mt-6 pl-2">
+            <div class="relative flex items-center mb-2 font-bold before:absolute before:w-2 before:h-2 before:bg-blue-500 before:rounded-full before:-left-3">核心研发人员</div>
+            <div>
+              <h3 class="font-bold">门户网站</h3>
+              <div class="text-slate-600 text-sm">
+                门户网站主要以知识体系建设为中心，研发各类知识应用。
+              </div>
+              <div class="mt-1 text-slate-600 text-sm">
+                开源贡献：
+                <a href="https://github.com/apache/echarts/issues/19106">Apache | ECharts</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
